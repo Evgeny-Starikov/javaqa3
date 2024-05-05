@@ -9,11 +9,10 @@ public class Main {
         if (replenishment > 1000) {
 
             System.out.println("Счет пополнен, сейчас на счету " + (amount = account + bonus + replenishment) + " руб. с учетом бонуса");
-            System.out.println("Бонус за пополнение счета " + bonus);
-            System.out.println(" руб.");
-            // Всю башку сломал, но не получилось поместить " руб." в одну строку с бонусом.
+            System.out.println("Бонус за пополнение счета " + bonus + " руб.");
 
         } else {
+
             System.out.println("Счет пополнен, сейчас на счету " + (amount = account + replenishment) + " рублей");
             System.out.println("Бонус за пополнение счета не начислен");
 
